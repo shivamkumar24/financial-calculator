@@ -117,10 +117,38 @@ const AdvanceTax = () => {
         </Flex>
       </Box>
 
-      {/* --------------------------- Result ------------------------- */}
+      {/* --------------------------- Result1 ------------------------- */}
+      <Text
+        mt="30px"
+        fontWeight="bold"
+        textDecoration="underline"
+        fontSize={{ base: "2xl", md: "3xl" }}
+      >
+        Advance Tax Details
+      </Text>
       <Box
         margin={"auto"}
+        textAlign="center"
+        fontWeight="bold"
+        width={{ base: "90%", md: "68%" }}
+      >
+        <Text>For 15th June is (15%): {june} </Text>
+        <Text>For 15th Sept is (45%): {june + sept} </Text>
+        <Text>For 15th Dec is (75%): {june + sept + dec} </Text>
+        <Text>For 15th Mar is (100%): {june + sept + dec + mar} </Text>
+      </Box>
+
+      {/* --------------------------- Result2 ------------------------- */}
+      <Text
         mt="30px"
+        fontWeight="bold"
+        textDecoration="underline"
+        fontSize={{ base: "2xl", md: "3xl" }}
+      >
+        Advance Tax Installments
+      </Text>
+      <Box
+        margin={"auto"}
         textAlign="center"
         fontWeight="bold"
         width={{ base: "90%", md: "68%" }}
