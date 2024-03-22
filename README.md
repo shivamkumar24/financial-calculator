@@ -17,7 +17,7 @@ Using HTTPS
 <h2>Purpose of our website</h2>
 <p>This is a company assignment given by Itaxeasy company.</p>
 
-## Glimpses of Myntra clone 🙈 :
+## Glimpses of Financial Calculator clone 🙈 :
 
 <img src="https://i.ibb.co/NY4hRns/finance-Home.png"  alt="WomenProduct" />
 
